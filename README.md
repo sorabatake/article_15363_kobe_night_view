@@ -9,7 +9,7 @@
 - los-check.ipynb
   - 見通しを判定するコード。
 - example.pbf
-  - 対象の範囲を指定するデータ。OpenStreetMapから取得。
+  - 対象の範囲を指定するサンプルデータ。OpenStreetMapから取得。
 
 
 ## ライセンス、利用規約
