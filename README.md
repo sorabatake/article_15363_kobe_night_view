@@ -1,107 +1,21 @@
 # article_xxxxx_kobe_night_view
 
-One Paragraph of project description goes here
+日本発の衛星データプラットフォーム Tellus のオウンドメディア「宙畑」の記事、[【Tellusで検証】神戸の夜景は本当に100万ドルか衛星データで検証してみた](https://sorabatake.jp/xxxxx/)
+で利用しているコードです。
 
-This initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), but as
-I can no longer open that page as there are too many comments, I have
-moved it here.
+観測点と指定した範囲の建物の見通しを判定し、判定結果をGeoJSONで返します。
 
-## Summary
+## 構成
+- los-check.ipynb
+  - 見通しを判定するコード。
+- example.pbf
+  - 対象の範囲を指定するサンプルデータ。OpenStreetMapから取得。
 
-  - [Getting Started](#getting-started)
-  - [Runing the tests](#running-the-tests)
-  - [Deployment](#deployment)
-  - [Built With](#built-with)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
-## Getting Started
+## ライセンス、利用規約
+ソースコードのライセンスは MIT ライセンスです。  
+取得した2次成果物の利用は基本的に、自由にコピー・配布いただけます。詳しくは以下をご参考下さい。
+https://www.tellusxdp.com/docs/secondary-product.pdf
 
-These instructions will get you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-    Give examples
-
-### Installing
-
-A step by step series of examples that tell you how to get a development
-env running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### And coding style tests
-
-Explain what these tests test and why
-
-    Give an example
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code was used
-  - Inspiration
-  - etc
+## 貢献方法
+プルリクエストや Issue はいつでも歓迎します。
