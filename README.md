@@ -1,4 +1,4 @@
-# article_xxxxx_kobe_night_view
+# article_15363_kobe_night_view
 
 日本発の衛星データプラットフォーム Tellus のオウンドメディア「宙畑」の記事、[【Tellusで検証】神戸の夜景は本当に100万ドルか衛星データで検証してみた](https://sorabatake.jp/xxxxx/)
 で利用しているコードです。
