@@ -13,8 +13,8 @@
 
 ## ライセンス、利用規約
 ソースコードのライセンスは MIT ライセンスです。  
-取得した2次成果物の利用は基本的に、自由にコピー・配布いただけます。詳しくは以下をご参考下さい。
-https://www.tellusxdp.com/docs/secondary-product.pdf
+今回コード内で ASTER GDEM2 データを用いております。利用ポリシーは以下をご参考下さい。
+https://www.tellusxdp.com/market/tool_detail/tellus-default/60
 
 ## 貢献方法
 プルリクエストや Issue はいつでも歓迎します。
